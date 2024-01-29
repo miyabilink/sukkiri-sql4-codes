@@ -1,0 +1,2 @@
+SELECT DISTINCT 費目
+  FROM 家計簿
