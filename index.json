@@ -1214,16 +1214,6 @@
         "setupFile": "pre_quiz0903.sql",
         "isRuntimeError": false,
         "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans0902",
-        "label": "問題9-2の解答",
-        "sourceFiles": [
-          "quizans0902.sql"
-        ],
-        "setupFile": "pre_quizans0902.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
       }
     ]
   },
