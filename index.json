@@ -1063,18 +1063,18 @@
       {
         "id": "ssql4-list0805",
         "label_header": "リスト8-5",
-        "label": "結合で繰り返し実行される検索",
+        "label": "2種類のメモを取得する",
         "sourceFiles": [
           "list0805.sql"
         ],
         "setupFile": "pre_list0805.sql",
-        "isRuntimeError": true,
-        "loadMessage": "このリストは、結合時にDBMS内部で実行されるものであり、単独で実行することはできません"
+        "isRuntimeError": false,
+        "loadMessage": null
       },
       {
         "id": "ssql4-list0806",
         "label_header": "リスト8-6",
-        "label": "2種類のメモを取得する",
+        "label": "別名を使ったSQL文",
         "sourceFiles": [
           "list0806.sql"
         ],
@@ -1085,7 +1085,7 @@
       {
         "id": "ssql4-list0807",
         "label_header": "リスト8-7",
-        "label": "別名を使ったSQL文",
+        "label": "3つのテーブルを結合するSQL文",
         "sourceFiles": [
           "list0807.sql"
         ],
@@ -1094,9 +1094,9 @@
         "loadMessage": null
       },
       {
-        "id": "ssql4-list0808",
+        "id": "ssql4-list0809",
         "label_header": "リスト8-8",
-        "label": "3つのテーブルを結合するSQL文",
+        "label": "副問い合わせの結果と結合するSQL文",
         "sourceFiles": [
           "list0808.sql"
         ],
@@ -1107,22 +1107,11 @@
       {
         "id": "ssql4-list0809",
         "label_header": "リスト8-9",
-        "label": "副問い合わせの結果と結合するSQL文",
+        "label": "自分自身と結合するSQL文",
         "sourceFiles": [
           "list0809.sql"
         ],
         "setupFile": "pre_list0809.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql4-list0810",
-        "label_header": "リスト8-10",
-        "label": "自分自身と結合するSQL文",
-        "sourceFiles": [
-          "list0810.sql"
-        ],
-        "setupFile": "pre_list0810.sql",
         "isRuntimeError": false,
         "loadMessage": null
       },
@@ -1143,16 +1132,6 @@
           "quiz0801.sql"
         ],
         "setupFile": "pre_quiz0801.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans0802",
-        "label": "問題8-2の解答",
-        "sourceFiles": [
-          "quizans0802.sql"
-        ],
-        "setupFile": "pre_quizans0802.sql",
         "isRuntimeError": false,
         "loadMessage": null
       }
