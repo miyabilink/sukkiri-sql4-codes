@@ -1,0 +1,1684 @@
+[
+  {
+    "id": "chap01",
+    "label": "第1章 はじめてのSQL",
+    "children": [
+      {
+        "id": "ssql4-list0101",
+        "label_header": "リスト1-1",
+        "label": "はじめての検索",
+        "sourceFiles": [
+          "list0101.sql"
+        ],
+        "setupFile": "pre_list0101.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0102",
+        "label_header": "リスト1-2",
+        "label": "すべての列を検索する",
+        "sourceFiles": [
+          "list0102.sql"
+        ],
+        "setupFile": "pre_list0102.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0103",
+        "label_header": "リスト1-3",
+        "label": "すべての列を取得する（簡略記法）",
+        "sourceFiles": [
+          "list0103.sql"
+        ],
+        "setupFile": "pre_list0103.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0104",
+        "label_header": "リスト1-4",
+        "label": "出金額が3,000円を超える行だけを取得する",
+        "sourceFiles": [
+          "list0104.sql"
+        ],
+        "setupFile": "pre_list0104.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0105",
+        "label_header": "リスト1-5",
+        "label": "3月の家賃の支払いを行として挿入する",
+        "sourceFiles": [
+          "list0105.sql"
+        ],
+        "setupFile": "pre_list0105.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0106",
+        "label_header": "リスト1-6",
+        "label": "「2024年2月25日の出金額」を90,000円に更新",
+        "sourceFiles": [
+          "list0106.sql"
+        ],
+        "setupFile": "pre_list0106.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0107",
+        "label_header": "リスト1-7",
+        "label": "3月の家賃（日付が「2024年2月25日」）の行を削除",
+        "sourceFiles": [
+          "list0107.sql"
+        ],
+        "setupFile": "pre_list0107.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap02",
+    "label": "第2章 基本文法と4大命令",
+    "children": [
+      {
+        "id": "ssql4-list0201",
+        "label_header": "リスト2-1",
+        "label": "1行で記述されたSELECT文",
+        "sourceFiles": [
+          "list0201.sql"
+        ],
+        "setupFile": "pre_list0201.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0202",
+        "label_header": "リスト2-2",
+        "label": "整形されたSELECT文",
+        "sourceFiles": [
+          "list0202.sql"
+        ],
+        "setupFile": "pre_list0202.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0203",
+        "label_header": "リスト2-3",
+        "label": "コメントを記述する",
+        "sourceFiles": [
+          "list0203.sql"
+        ],
+        "setupFile": "pre_list0203.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0204",
+        "label_header": "リスト2-4",
+        "label": "3月の家賃の支払いを行として追加する",
+        "sourceFiles": [
+          "list0204.sql"
+        ],
+        "setupFile": "pre_list0204.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0205",
+        "label_header": "リスト2-5",
+        "label": "入金額と出金額を文字列情報として指定したら…",
+        "sourceFiles": [
+          "list0205.sql"
+        ],
+        "setupFile": "pre_list0205.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0206",
+        "label_header": "リスト2-6",
+        "label": "複数の列を取得するSELECT文",
+        "sourceFiles": [
+          "list0206.sql"
+        ],
+        "setupFile": "pre_list0206.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0207",
+        "label_header": "リスト2-7",
+        "label": "ASを用いて別名を定義したSELECT文",
+        "sourceFiles": [
+          "list0207.sql"
+        ],
+        "setupFile": "pre_list0207.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0208",
+        "label_header": "リスト2-8",
+        "label": "1つの列を更新するUPDATE文",
+        "sourceFiles": [
+          "list0208.sql"
+        ],
+        "setupFile": "pre_list0208.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0209",
+        "label_header": "リスト2-9",
+        "label": "条件付きのUPDATE文",
+        "sourceFiles": [
+          "list0209.sql"
+        ],
+        "setupFile": "pre_list0209.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0210",
+        "label_header": "リスト2-10",
+        "label": "シンプルなDELETE文",
+        "sourceFiles": [
+          "list0210.sql"
+        ],
+        "setupFile": "pre_list0210.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0211",
+        "label_header": "リスト2-11",
+        "label": "列を指定して追加するINSERT文",
+        "sourceFiles": [
+          "list0211.sql"
+        ],
+        "setupFile": "pre_list0211.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0212",
+        "label_header": "リスト2-12",
+        "label": "全列に追加するINSERT文",
+        "sourceFiles": [
+          "list0212.sql"
+        ],
+        "setupFile": "pre_list0212.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-summary02",
+        "label": "この章でできるようになったこと",
+        "sourceFiles": [
+          "summary02.sql"
+        ],
+        "setupFile": "pre_summary02.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap03",
+    "label": "第3章 操作する行の絞り込み",
+    "children": [
+      {
+        "id": "ssql4-list0301",
+        "label_header": "リスト3-1",
+        "label": "1円以上の出金のあった行をすべて削除する",
+        "sourceFiles": [
+          "list0301.sql"
+        ],
+        "setupFile": "pre_list0301.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0302",
+        "label_header": "リスト3-2",
+        "label": "正しいNULLの判定方法",
+        "sourceFiles": [
+          "list0302.sql"
+        ],
+        "setupFile": "pre_list0302.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0303",
+        "label_header": "リスト3-3",
+        "label": "1月に関連する行を取得するSELECT文",
+        "sourceFiles": [
+          "list0303.sql"
+        ],
+        "setupFile": "pre_list0303.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0304",
+        "label_header": "リスト3-4",
+        "label": "500~900円の出費を取得するSELECT文",
+        "sourceFiles": [
+          "list0304.sql"
+        ],
+        "setupFile": "pre_list0304.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0305",
+        "label_header": "リスト3-5",
+        "label": "食費・交際費を取得するSELECT文",
+        "sourceFiles": [
+          "list0305.sql"
+        ],
+        "setupFile": "pre_list0305.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0306",
+        "label_header": "リスト3-6",
+        "label": "食費でも交際費でもない行を取得するSELECT文",
+        "sourceFiles": [
+          "list0306.sql"
+        ],
+        "setupFile": "pre_list0306.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0307",
+        "label_header": "リスト3-7",
+        "label": "2つの条件式を組み合わせる",
+        "sourceFiles": [
+          "list0307.sql"
+        ],
+        "setupFile": "pre_list0307.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0308",
+        "label_header": "リスト3-8",
+        "label": "複数の論理演算子を使ったSELECT文",
+        "sourceFiles": [
+          "list0308.sql"
+        ],
+        "setupFile": "pre_list0308.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0309",
+        "label_header": "リスト3-9",
+        "label": "論理演算子の優先順位を指定する",
+        "sourceFiles": [
+          "list0309.sql"
+        ],
+        "setupFile": "pre_list0309.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0310",
+        "label_header": "リスト3-10",
+        "label": "上のヨシダシゲルさんだけを削除する",
+        "sourceFiles": [
+          "list0310.sql"
+        ],
+        "setupFile": "pre_list0310.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-summary03",
+        "label": "この章でできるようになったこと",
+        "sourceFiles": [
+          "summary03.sql"
+        ],
+        "setupFile": "pre_summary03.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap04",
+    "label": "第4章 検索結果の加工",
+    "children": [
+      {
+        "id": "ssql4-list0401",
+        "label_header": "リスト4-1",
+        "label": "DISTINCTなし",
+        "sourceFiles": [
+          "list0401.sql"
+        ],
+        "setupFile": "pre_list0401.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0402",
+        "label_header": "リスト4-2",
+        "label": "DISTINCTあり",
+        "sourceFiles": [
+          "list0402.sql"
+        ],
+        "setupFile": "pre_list0402.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0403",
+        "label_header": "リスト4-3",
+        "label": "費目一覧の取得",
+        "sourceFiles": [
+          "list0403.sql"
+        ],
+        "setupFile": "pre_list0403.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0404",
+        "label_header": "リスト4-4",
+        "label": "出金額で昇順に並べ替えて取得する",
+        "sourceFiles": [
+          "list0404.sql"
+        ],
+        "setupFile": "pre_list0404.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0405",
+        "label_header": "リスト4-5",
+        "label": "日付で降順に並べ替えて取得する",
+        "sourceFiles": [
+          "list0405.sql"
+        ],
+        "setupFile": "pre_list0405.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0406",
+        "label_header": "リスト4-6",
+        "label": "複数の列で並べ替える",
+        "sourceFiles": [
+          "list0406.sql"
+        ],
+        "setupFile": "pre_list0406.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0407",
+        "label_header": "リスト4-7",
+        "label": "列番号を指定するORDER BY句",
+        "sourceFiles": [
+          "list0407.sql"
+        ],
+        "setupFile": "pre_list0407.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0408",
+        "label_header": "リスト4-8",
+        "label": "出金額の高い順に3件を取得する",
+        "sourceFiles": [
+          "list0408.sql"
+        ],
+        "setupFile": "pre_list0408.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0409",
+        "label_header": "リスト4-9",
+        "label": "3番目に高い出金額だけを取得する",
+        "sourceFiles": [
+          "list0409.sql"
+        ],
+        "setupFile": "pre_list0409.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0410",
+        "label_header": "リスト4-10",
+        "label": "取得行数を限定する別の方法",
+        "sourceFiles": [
+          "list0410.sql"
+        ],
+        "setupFile": "pre_list0410.sql",
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0411",
+        "label_header": "リスト4-11",
+        "label": "和集合を取得する",
+        "sourceFiles": [
+          "list0411.sql"
+        ],
+        "setupFile": "pre_list0411.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0412",
+        "label_header": "リスト4-12",
+        "label": "差集合を取得する",
+        "sourceFiles": [
+          "list0412.sql"
+        ],
+        "setupFile": "pre_list0412.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0413",
+        "label_header": "リスト4-13",
+        "label": "積集合を取得する",
+        "sourceFiles": [
+          "list0413.sql"
+        ],
+        "setupFile": "pre_list0413.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-summary04",
+        "label": "この章でできるようになったこと",
+        "sourceFiles": [
+          "summary04.sql"
+        ],
+        "setupFile": "pre_summary04.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap05",
+    "label": "第5章 式と関数",
+    "children": [
+      {
+        "id": "ssql4-list0501",
+        "label_header": "リスト5-1",
+        "label": "選択列リストへのさまざまな指定",
+        "sourceFiles": [
+          "list0501.sql"
+        ],
+        "setupFile": "pre_list0501.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0502",
+        "label_header": "リスト5-2",
+        "label": "計算式に別名を付ける",
+        "sourceFiles": [
+          "list0502.sql"
+        ],
+        "setupFile": "pre_list0502.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0503",
+        "label_header": "リスト5-3",
+        "label": "INSERT文での計算式の利用",
+        "sourceFiles": [
+          "list0503.sql"
+        ],
+        "setupFile": "pre_list0503.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0504",
+        "label_header": "リスト5-4",
+        "label": "UPDATE文での計算式の利用（列指定を含む）",
+        "sourceFiles": [
+          "list0504.sql"
+        ],
+        "setupFile": "pre_list0504.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0505",
+        "label_header": "リスト5-5",
+        "label": "CASE演算子を使ったSELECT文（1）",
+        "sourceFiles": [
+          "list0505.sql"
+        ],
+        "setupFile": "pre_list0505.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0506",
+        "label_header": "リスト5-6",
+        "label": "CASE演算子を使ったSELECT文（2）",
+        "sourceFiles": [
+          "list0506.sql"
+        ],
+        "setupFile": "pre_list0506.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0507",
+        "label_header": "リスト5-7",
+        "label": "メモとメモの長さを表示する",
+        "sourceFiles": [
+          "list0507.sql"
+        ],
+        "setupFile": "pre_list0507.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0508",
+        "label_header": "リスト5-8",
+        "label": "10文字（10バイト）以下のメモだけを取得する",
+        "sourceFiles": [
+          "list0508.sql"
+        ],
+        "setupFile": "pre_list0508.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0509",
+        "label_header": "リスト5-9",
+        "label": "空白を除去したメモを取得する",
+        "sourceFiles": [
+          "list0509.sql"
+        ],
+        "setupFile": "pre_list0509.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0510",
+        "label_header": "リスト5-10",
+        "label": "メモの一部を置換する",
+        "sourceFiles": [
+          "list0510.sql"
+        ],
+        "setupFile": "pre_list0510.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0511",
+        "label_header": "リスト5-11",
+        "label": "費目列の1~3文字目に「費」があるものを抽出",
+        "sourceFiles": [
+          "list0511.sql"
+        ],
+        "setupFile": "pre_list0511.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0512",
+        "label_header": "リスト5-12",
+        "label": "費目とメモをつなげて抽出する",
+        "sourceFiles": [
+          "list0512.sql"
+        ],
+        "setupFile": "pre_list0512.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0513",
+        "label_header": "リスト5-13",
+        "label": "百円単位の出金額を取得する（四捨五入）",
+        "sourceFiles": [
+          "list0513.sql"
+        ],
+        "setupFile": "pre_list0513.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0514",
+        "label_header": "リスト5-14",
+        "label": "百円単位の出金額を取得する（切り捨て）",
+        "sourceFiles": [
+          "list0514.sql"
+        ],
+        "setupFile": "pre_list0513.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0515",
+        "label_header": "リスト5-15",
+        "label": "現在の日付を取得して登録する",
+        "sourceFiles": [
+          "list0515.sql"
+        ],
+        "setupFile": "pre_list0515.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0516",
+        "label_header": "リスト5-16",
+        "label": "COALESCE関数の基本動作",
+        "sourceFiles": [
+          "list0516.sql"
+        ],
+        "setupFile": "pre_list0516.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0517",
+        "label_header": "リスト5-17",
+        "label": "NULLを明示的に表示する",
+        "sourceFiles": [
+          "list0517.sql"
+        ],
+        "setupFile": "pre_list0517.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-summary05",
+        "label": "この章でできるようになったこと",
+        "sourceFiles": [
+          "summary05.sql"
+        ],
+        "setupFile": "pre_summary05.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap06",
+    "label": "第6章 集計とグループ化",
+    "children": [
+      {
+        "id": "ssql4-list0601",
+        "label_header": "リスト6-1",
+        "label": "出金額を集計する",
+        "sourceFiles": [
+          "list0601.sql"
+        ],
+        "setupFile": "pre_list0601.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0602",
+        "label_header": "リスト6-2",
+        "label": "さまざまな集計をする",
+        "sourceFiles": [
+          "list0602.sql"
+        ],
+        "setupFile": "pre_list0602.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0603",
+        "label_header": "リスト6-3",
+        "label": "食費の行数を数える",
+        "sourceFiles": [
+          "list0603.sql"
+        ],
+        "setupFile": "pre_list0603.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0604",
+        "label_header": "リスト6-4",
+        "label": "日付と出金額合計を取得するつもり（エラー）",
+        "sourceFiles": [
+          "list0604.sql"
+        ],
+        "setupFile": "pre_list0604.sql",
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0605",
+        "label_header": "リスト6-5",
+        "label": "NULLをゼロとして平均を求める",
+        "sourceFiles": [
+          "list0605.sql"
+        ],
+        "setupFile": "pre_list0605.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0606",
+        "label_header": "リスト6-6",
+        "label": "SQL文を複数実行して各費目の集計結果を得る",
+        "sourceFiles": [
+          "list0606.sql"
+        ],
+        "setupFile": "pre_list0606.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0607",
+        "label_header": "リスト6-7",
+        "label": "費目でグループ化してそれぞれの合計を求める",
+        "sourceFiles": [
+          "list0607.sql"
+        ],
+        "setupFile": "pre_list0607.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0608",
+        "label_header": "リスト6-8",
+        "label": "集計結果から0円の行を除外したい（エラー）",
+        "sourceFiles": [
+          "list0608.sql"
+        ],
+        "setupFile": "pre_list0608.sql",
+        "isRuntimeError": true,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0609",
+        "label_header": "リスト6-9",
+        "label": "集計結果で絞り込む",
+        "sourceFiles": [
+          "list0609.sql"
+        ],
+        "setupFile": "pre_list0609.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0610",
+        "label_header": "リスト6-10",
+        "label": "2023年の入出金の合計を算出",
+        "sourceFiles": [
+          "list0610.sql"
+        ],
+        "setupFile": "pre_list0610.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-summary06",
+        "label": "この章でできるようになったこと",
+        "sourceFiles": [
+          "summary06.sql"
+        ],
+        "setupFile": "pre_summary06.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizQ0603",
+        "label": "問題6-3",
+        "sourceFiles": [
+          "quiz0603.sql"
+        ],
+        "setupFile": "pre_quiz0603.sql",
+        "isRuntimeError": true,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap07",
+    "label": "第7章 副問い合わせ",
+    "children": [
+      {
+        "id": "ssql4-list0701",
+        "label_header": "リスト7-1",
+        "label": "最も大きな出費の費目と金額を求める（1）",
+        "sourceFiles": [
+          "list0701.sql"
+        ],
+        "setupFile": "pre_list0701.sql",
+        "isRuntimeError": true,
+        "loadMessage": "このリストは、（1）を実行後に、その結果を（2）の【書き留めた額】に当てはめて実行する必要があります"
+      },
+      {
+        "id": "ssql4-list0702",
+        "label_header": "リスト7-2",
+        "label": "最も大きな出費の費目と金額を求める（2）",
+        "sourceFiles": [
+          "list0702.sql"
+        ],
+        "setupFile": "pre_list0702.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0703",
+        "label_header": "リスト7-3",
+        "label": "SET句で副問い合わせを利用する",
+        "sourceFiles": [
+          "list0703.sql"
+        ],
+        "setupFile": "pre_list0703.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0704",
+        "label_header": "リスト7-4",
+        "label": "選択リストで副問い合わせを利用する",
+        "sourceFiles": [
+          "list0704.sql"
+        ],
+        "setupFile": "pre_list0704.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0705",
+        "label_header": "リスト7-5",
+        "label": "INを使った条件式の例",
+        "sourceFiles": [
+          "list0705.sql"
+        ],
+        "setupFile": "pre_list0705.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0706",
+        "label_header": "リスト7-6",
+        "label": "INで副問い合わせを利用する",
+        "sourceFiles": [
+          "list0706.sql"
+        ],
+        "setupFile": "pre_list0706.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0707",
+        "label_header": "リスト7-7",
+        "label": "ANYで副問い合わせを利用する",
+        "sourceFiles": [
+          "list0707.sql"
+        ],
+        "setupFile": "pre_list0707.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0708",
+        "label_header": "リスト7-8",
+        "label": "値リストにNULLのある条件式",
+        "sourceFiles": [
+          "list0708.sql"
+        ],
+        "setupFile": "pre_list0708.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0709",
+        "label_header": "リスト7-9",
+        "label": "副問い合わせからNULLを除外する（1）",
+        "sourceFiles": [
+          "list0709.sql"
+        ],
+        "setupFile": "pre_list0709.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0710",
+        "label_header": "リスト7-10",
+        "label": "副問い合わせからNULLを除外する（2）",
+        "sourceFiles": [
+          "list0710.sql"
+        ],
+        "setupFile": "pre_list0710.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0711",
+        "label_header": "リスト7-11",
+        "label": "FROM句で副問い合わせを利用する",
+        "sourceFiles": [
+          "list0711.sql"
+        ],
+        "setupFile": "pre_list0711.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0712",
+        "label_header": "リスト7-12",
+        "label": "INSERT文で副問い合わせを利用する",
+        "sourceFiles": [
+          "list0712.sql"
+        ],
+        "setupFile": "pre_list0711.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-summary07",
+        "label": "この章でできるようになったこと",
+        "sourceFiles": [
+          "summary07.sql"
+        ],
+        "setupFile": "pre_summary07.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quiz0702",
+        "label": "問題7-2",
+        "sourceFiles": [
+          "quiz0702.sql"
+        ],
+        "setupFile": "pre_quiz0702.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0703",
+        "label": "問題7-3の解答",
+        "sourceFiles": [
+          "quizans0703.sql"
+        ],
+        "setupFile": "pre_quizans0703.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap08",
+    "label": "第8章 複数テーブルの結合",
+    "children": [
+      {
+        "id": "ssql4-list0801",
+        "label_header": "リスト8-1",
+        "label": "古い家計簿テーブルの場合",
+        "sourceFiles": [
+          "list0801.sql"
+        ],
+        "setupFile": "pre_list0801.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0802",
+        "label_header": "リスト8-2",
+        "label": "新しい家計簿テーブルの場合",
+        "sourceFiles": [
+          "list0802.sql"
+        ],
+        "setupFile": "pre_list0802.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0803",
+        "label_header": "リスト8-3",
+        "label": "矛盾した状態を生むテーブル更新",
+        "sourceFiles": [
+          "list0803.sql"
+        ],
+        "setupFile": "pre_list0803.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0804",
+        "label_header": "リスト8-4",
+        "label": "図8-3の結合を実現するためのSELECT文",
+        "sourceFiles": [
+          "list0804.sql"
+        ],
+        "setupFile": "pre_list0804.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0805",
+        "label_header": "リスト8-5",
+        "label": "結合で繰り返し実行される検索",
+        "sourceFiles": [
+          "list0805.sql"
+        ],
+        "setupFile": "pre_list0805.sql",
+        "isRuntimeError": true,
+        "loadMessage": "このリストは、結合時にDBMS内部で実行されるものであり、単独で実行することはできません"
+      },
+      {
+        "id": "ssql4-list0806",
+        "label_header": "リスト8-6",
+        "label": "2種類のメモを取得する",
+        "sourceFiles": [
+          "list0806.sql"
+        ],
+        "setupFile": "pre_list0806.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0807",
+        "label_header": "リスト8-7",
+        "label": "別名を使ったSQL文",
+        "sourceFiles": [
+          "list0807.sql"
+        ],
+        "setupFile": "pre_list0807.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0808",
+        "label_header": "リスト8-8",
+        "label": "3つのテーブルを結合するSQL文",
+        "sourceFiles": [
+          "list0808.sql"
+        ],
+        "setupFile": "pre_list0808.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0809",
+        "label_header": "リスト8-9",
+        "label": "副問い合わせの結果と結合するSQL文",
+        "sourceFiles": [
+          "list0809.sql"
+        ],
+        "setupFile": "pre_list0809.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0810",
+        "label_header": "リスト8-10",
+        "label": "自分自身と結合するSQL文",
+        "sourceFiles": [
+          "list0810.sql"
+        ],
+        "setupFile": "pre_list0810.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-summary08",
+        "label": "この章でできるようになったこと",
+        "sourceFiles": [
+          "summary08.sql"
+        ],
+        "setupFile": "pre_summary08.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizQ0801",
+        "label": "問題8-1",
+        "sourceFiles": [
+          "quiz0801.sql"
+        ],
+        "setupFile": "pre_quiz0801.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0802",
+        "label": "問題8-2の解答",
+        "sourceFiles": [
+          "quizans0802.sql"
+        ],
+        "setupFile": "pre_quizans0802.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap09",
+    "label": "第9章 トランザクション",
+    "children": [
+      {
+        "id": "ssql4-list0901",
+        "label_header": "リスト9-1",
+        "label": "1月のデータをアーカイブテーブルに移動する",
+        "sourceFiles": [
+          "list0901.sql"
+        ],
+        "setupFile": "pre_list0901.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0902",
+        "label_header": "リスト9-2",
+        "label": "SERIALIZABLE分離レベルを選択する",
+        "sourceFiles": [
+          "list0902.sql"
+        ],
+        "setupFile": "pre_list0902.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list0903",
+        "label_header": "リスト9-3",
+        "label": "2月以降の行をロックして集計する",
+        "sourceFiles": [
+          "list0903.sql"
+        ],
+        "setupFile": "pre_list0903.sql",
+        "isRuntimeError": true,
+        "loadMessage": "このリストを実行するには、集計処理1〜3に適当な処理を記述してください"
+      },
+      {
+        "id": "ssql4-list0904",
+        "label_header": "リスト9-4",
+        "label": "家計簿テーブルをロックして集計する",
+        "sourceFiles": [
+          "list0904.sql"
+        ],
+        "setupFile": "pre_list0904.sql",
+        "isRuntimeError": true,
+        "loadMessage": "このリストを実行するには、集計処理1〜3に適当な処理を記述してください"
+      },
+      {
+        "id": "ssql4-summary09",
+        "label": "この章でできるようになったこと",
+        "sourceFiles": [
+          "summary09.sql"
+        ],
+        "setupFile": "pre_summary09.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quiz0902",
+        "label": "問題9-2",
+        "sourceFiles": [
+          "quiz0902.sql"
+        ],
+        "setupFile": "pre_quiz0902.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quiz0903",
+        "label": "問題9-3",
+        "sourceFiles": [
+          "quiz0903.sql"
+        ],
+        "setupFile": "pre_quiz0903.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0902",
+        "label": "問題9-2の解答",
+        "sourceFiles": [
+          "quizans0902.sql"
+        ],
+        "setupFile": "pre_quizans0902.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap10",
+    "label": "第10章 テーブルの作成",
+    "children": [
+      {
+        "id": "ssql4-list1001",
+        "label_header": "リスト10-1",
+        "label": "家計簿テーブルを作成する",
+        "sourceFiles": [
+          "list1001.sql"
+        ],
+        "setupFile": "pre_list1001.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1002",
+        "label_header": "リスト10-2",
+        "label": "家計簿テーブルに対する行の追加",
+        "sourceFiles": [
+          "list1002.sql"
+        ],
+        "setupFile": "pre_list1002.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1003",
+        "label_header": "リスト10-3",
+        "label": "家計簿テーブルを作成する（デフォルト値を活用）",
+        "sourceFiles": [
+          "list1003.sql"
+        ],
+        "setupFile": "pre_list1003.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1004",
+        "label_header": "リスト10-4",
+        "label": "列の追加と削除",
+        "sourceFiles": [
+          "list1004.sql"
+        ],
+        "setupFile": "pre_list1004.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1005",
+        "label_header": "リスト10-5",
+        "label": "基本的な3つの制約を指定",
+        "sourceFiles": [
+          "list1005.sql"
+        ],
+        "setupFile": "pre_list1005.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1006",
+        "label_header": "リスト10-6",
+        "label": "デフォルト値の利用",
+        "sourceFiles": [
+          "list1006.sql"
+        ],
+        "setupFile": "pre_list1006.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1007",
+        "label_header": "リスト10-7",
+        "label": "主キー制約の指定（単独列）",
+        "sourceFiles": [
+          "list1007.sql"
+        ],
+        "setupFile": "pre_list1007.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1008",
+        "label_header": "リスト10-8",
+        "label": "主キー制約の指定（複合主キー）",
+        "sourceFiles": [
+          "list1008.sql"
+        ],
+        "setupFile": "pre_list1008.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1009",
+        "label_header": "リスト10-9",
+        "label": "参照整合性制約を崩す4つの操作",
+        "sourceFiles": [
+          "list1009.sql"
+        ],
+        "setupFile": "pre_list1009.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1010",
+        "label_header": "リスト10-10",
+        "label": "外部キー制約の指定",
+        "sourceFiles": [
+          "list1001.sql"
+        ],
+        "setupFile": "pre_list1010.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-summary10",
+        "label": "この章でできるようになったこと",
+        "sourceFiles": [
+          "summary10.sql"
+        ],
+        "setupFile": "pre_summary10.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quiz1002",
+        "label": "問題10-2",
+        "sourceFiles": [
+          "quiz1002.sql"
+        ],
+        "setupFile": "pre_quiz1002.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans1002",
+        "label": "問題10-2の解答",
+        "sourceFiles": [
+          "quizans1002.sql"
+        ],
+        "setupFile": "pre_quizans1002.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans1003",
+        "label": "問題10-3の解答",
+        "sourceFiles": [
+          "quizans1003.sql"
+        ],
+        "setupFile": "pre_quizans1003.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans1005",
+        "label": "問題10-5の解答",
+        "sourceFiles": [
+          "quizans1005.sql"
+        ],
+        "setupFile": "pre_quizans1005.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap11",
+    "label": "第11章 さまざまな支援機能",
+    "children": [
+      {
+        "id": "ssql4-list1101",
+        "label_header": "リスト11-1",
+        "label": "家計簿テーブルにインデックスを2つ作る",
+        "sourceFiles": [
+          "list1101.sql"
+        ],
+        "setupFile": "pre_list1101.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1102",
+        "label_header": "リスト11-2",
+        "label": "インデックス列をWHERE句に指定（完全一致検索）",
+        "sourceFiles": [
+          "list1102.sql"
+        ],
+        "setupFile": "pre_list1102.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1103",
+        "label_header": "リスト11-3",
+        "label": "インデックス列をWHERE句に指定（前方一致検索）",
+        "sourceFiles": [
+          "list1103.sql"
+        ],
+        "setupFile": "pre_list1103.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1104",
+        "label_header": "リスト11-4",
+        "label": "インデックス列をORDER BY句に指定",
+        "sourceFiles": [
+          "list1104.sql"
+        ],
+        "setupFile": "pre_list1104.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1105",
+        "label_header": "リスト11-5",
+        "label": "インデックス列をJOINの結合条件に指定",
+        "sourceFiles": [
+          "list1105.sql"
+        ],
+        "setupFile": "pre_list1105.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1106",
+        "label_header": "リスト11-6",
+        "label": "4月の家計簿に関するさまざまなSELECT文の実行",
+        "sourceFiles": [
+          "list1106.sql"
+        ],
+        "setupFile": "pre_list1106.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1107",
+        "label_header": "リスト11-7",
+        "label": "4月の家計簿データのみを持つビューを定義",
+        "sourceFiles": [
+          "list1107.sql"
+        ],
+        "setupFile": "pre_list1107.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1108",
+        "label_header": "リスト11-8",
+        "label": "家計簿4月ビューを使ったSELECT文の実行",
+        "sourceFiles": [
+          "list1108.sql"
+        ],
+        "setupFile": "pre_list1108.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1109",
+        "label_header": "リスト11-9",
+        "label": "連番指定の例",
+        "sourceFiles": [
+          "list1109.sql"
+        ],
+        "setupFile": "pre_list1109.sql",
+        "isRuntimeError": true,
+        "loadMessage": "このリストには費目テーブルを作成するDDLが2つ記述されているため、1つずつ実行する必要があります"
+      },
+      {
+        "id": "ssql4-list1110",
+        "label_header": "リスト11-10",
+        "label": "Oracle DBにおけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "list1110.sql"
+        ],
+        "setupFile": "pre_list1110.sql",
+        "isRuntimeError": true,
+        "loadMessage": "このリストはOracle DBを想定しているため、dokoQLで実行することはできません"
+      },
+      {
+        "id": "ssql4-list1111",
+        "label_header": "リスト11-11",
+        "label": "Db2におけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "list1111.sql"
+        ],
+        "setupFile": "pre_list1111.sql",
+        "isRuntimeError": true,
+        "loadMessage": "このリストはDb2を想定しているため、dokoQLで実行することはできません"
+      },
+      {
+        "id": "ssql4-list1112",
+        "label_header": "リスト11-12",
+        "label": "PostgreSQLにおけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "list1112.sql"
+        ],
+        "setupFile": "pre_list1112.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1113",
+        "label_header": "リスト11-13",
+        "label": "PostgreSQLにおける費目行の追加",
+        "sourceFiles": [
+          "list1113.sql"
+        ],
+        "setupFile": "pre_list1113.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-summary11",
+        "label": "この章でできるようになったこと",
+        "sourceFiles": [
+          "summary11.sql"
+        ],
+        "setupFile": "pre_summary11.sql",
+        "isRuntimeError": false,
+        "loadMessage": ""
+      },
+      {
+        "id": "ssql4-quizans1102",
+        "label": "問題11-2の解答",
+        "sourceFiles": [
+          "quizans1102.sql"
+        ],
+        "setupFile": "pre_quizans1102.sql",
+        "isRuntimeError": false,
+        "loadMessage": ""
+      }
+    ]
+  },
+  {
+    "id": "chap12",
+    "label": "第12章 テーブルの設計",
+    "children": [
+      {
+        "id": "ssql4-list1201",
+        "label_header": "リスト12-1",
+        "label": "家計管理DBのDDL",
+        "sourceFiles": [
+          "list1201.sql"
+        ],
+        "setupFile": "pre_list1201.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1202",
+        "label_header": "リスト12-2",
+        "label": "利用者を追加する",
+        "sourceFiles": [
+          "list1202.sql"
+        ],
+        "setupFile": "pre_list1202.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-list1203",
+        "label_header": "リスト12-3",
+        "label": "集計を表示する",
+        "sourceFiles": [
+          "list1203.sql"
+        ],
+        "setupFile": "pre_list1203.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quiz1202",
+        "label": "問題12-2の解答",
+        "sourceFiles": [
+          "quizans1202.sql"
+        ],
+        "setupFile": "pre_quizans1202.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chapac",
+    "label": "付録C SQLドリル",
+    "children": [
+      {
+        "id": "ssql4-C-1-1",
+        "label_header": "C.1.1",
+        "label": "銀行口座データベース",
+        "sourceFiles": [
+          "quizapx1.sql"
+        ],
+        "setupFile": "pre_quizapx1.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-C-1-2",
+        "label_header": "C.1.2",
+        "label": "商店データベース",
+        "sourceFiles": [
+          "quizapx2.sql"
+        ],
+        "setupFile": "pre_quizapx2.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-C-1-3",
+        "label_header": "C.1.3",
+        "label": "RPGデータベース",
+        "sourceFiles": [
+          "quizapx3.sql"
+        ],
+        "setupFile": "pre_quizapx3.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  }
+]
