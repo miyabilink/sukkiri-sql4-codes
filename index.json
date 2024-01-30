@@ -715,36 +715,6 @@
         "setupFile": "pre_summary05.sql",
         "isRuntimeError": false,
         "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans0501",
-        "label": "問題5-1の解答",
-        "sourceFiles": [
-          "quizans0501.sql"
-        ],
-        "setupFile": "pre_quizans0501.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans0502",
-        "label": "問題5-2の解答",
-        "sourceFiles": [
-          "quizans0502.sql"
-        ],
-        "setupFile": "pre_quizans0502.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans0503",
-        "label": "問題5-3の解答",
-        "sourceFiles": [
-          "quizans0503.sql"
-        ],
-        "setupFile": "pre_quizans0503.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
       }
     ]
   },
@@ -854,7 +824,7 @@
       {
         "id": "ssql4-list0610",
         "label_header": "リスト6-10",
-        "label": "2021年の入出金の合計を算出",
+        "label": "2023年の入出金の合計を算出",
         "sourceFiles": [
           "list0610.sql"
         ],
@@ -880,26 +850,6 @@
         ],
         "setupFile": "pre_quiz0603.sql",
         "isRuntimeError": true,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans0601",
-        "label": "問題6-1の解答",
-        "sourceFiles": [
-          "quizans0601.sql"
-        ],
-        "setupFile": "pre_quizans0601.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans0602",
-        "label": "問題6-2の解答",
-        "sourceFiles": [
-          "quizans0602.sql"
-        ],
-        "setupFile": "pre_quizans0602.sql",
-        "isRuntimeError": false,
         "loadMessage": null
       }
     ]
