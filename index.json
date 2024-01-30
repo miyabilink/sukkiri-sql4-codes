@@ -905,7 +905,7 @@
       {
         "id": "ssql4-list0705",
         "label_header": "リスト7-5",
-        "label": "INを使った条件式の例",
+        "label": "INを使った条件式",
         "sourceFiles": [
           "list0705.sql"
         ],
@@ -1007,16 +1007,6 @@
           "quiz0702.sql"
         ],
         "setupFile": "pre_quiz0702.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans0703",
-        "label": "問題7-3の解答",
-        "sourceFiles": [
-          "quizans0703.sql"
-        ],
-        "setupFile": "pre_quizans0703.sql",
         "isRuntimeError": false,
         "loadMessage": null
       }
