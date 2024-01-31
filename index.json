@@ -1350,36 +1350,6 @@
         "setupFile": "pre_quiz1002.sql",
         "isRuntimeError": false,
         "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans1002",
-        "label": "問題10-2の解答",
-        "sourceFiles": [
-          "quizans1002.sql"
-        ],
-        "setupFile": "pre_quizans1002.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans1003",
-        "label": "問題10-3の解答",
-        "sourceFiles": [
-          "quizans1003.sql"
-        ],
-        "setupFile": "pre_quizans1003.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans1005",
-        "label": "問題10-5の解答",
-        "sourceFiles": [
-          "quizans1005.sql"
-        ],
-        "setupFile": "pre_quizans1005.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
       }
     ]
   },
@@ -1539,16 +1509,6 @@
         "setupFile": "pre_summary11.sql",
         "isRuntimeError": false,
         "loadMessage": ""
-      },
-      {
-        "id": "ssql4-quizans1102",
-        "label": "問題11-2の解答",
-        "sourceFiles": [
-          "quizans1102.sql"
-        ],
-        "setupFile": "pre_quizans1102.sql",
-        "isRuntimeError": false,
-        "loadMessage": ""
       }
     ]
   },
@@ -1586,16 +1546,6 @@
           "list1203.sql"
         ],
         "setupFile": "pre_list1203.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql4-quiz1202",
-        "label": "問題12-2の解答",
-        "sourceFiles": [
-          "quizans1202.sql"
-        ],
-        "setupFile": "pre_quizans1202.sql",
         "isRuntimeError": false,
         "loadMessage": null
       }
