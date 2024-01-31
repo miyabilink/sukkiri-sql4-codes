@@ -1,0 +1,5 @@
+CREATE TABLE 費目 (
+  ID   INTEGER,
+  名前  VARCHAR(40) UNIQUE,
+  PRIMARY KEY(ID, 名前)
+)
