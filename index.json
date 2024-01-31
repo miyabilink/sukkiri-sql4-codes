@@ -1589,5 +1589,88 @@
         "loadMessage": null
       }
     ]
+  },
+  {
+    "id": "chapad",
+    "label": "付録D SQLによるデータ分析",
+    "children": [
+      {
+        "id": "ssql4-listad01",
+        "label_header": "リストD-1",
+        "label": "起床時刻の平均を求める",
+        "sourceFiles": [
+          "listad01.sql"
+        ],
+        "setupFile": "pre_listad01.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-listad02",
+        "label_header": "リストD-2",
+        "label": "起床時刻の最頻値を求める",
+        "sourceFiles": [
+          "listad02.sql"
+        ],
+        "setupFile": "pre_listad02.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-listad03",
+        "label_header": "リストD-3",
+        "label": "起床時刻の中央値を求める",
+        "sourceFiles": [
+          "listad03.sql"
+        ],
+        "setupFile": "pre_listad03.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-listad04",
+        "label_header": "リストD-4",
+        "label": "起床時刻の分散を求める",
+        "sourceFiles": [
+          "listad04.sql"
+        ],
+        "setupFile": "pre_listad04.sql",
+        "isRuntimeError": false,
+        "loadMessage": "このリストを実行するには、(1)で求めた平均を（2）に記述してください"
+      },
+      {
+        "id": "ssql4-listad05",
+        "label_header": "リストD-5",
+        "label": "記録のない日は6時起床とする",
+        "sourceFiles": [
+          "listad05.sql"
+        ],
+        "setupFile": "pre_listad05.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-listad06",
+        "label_header": "リストD-6",
+        "label": "記録のない日は平均値で穴埋めする",
+        "sourceFiles": [
+          "listad06.sql"
+        ],
+        "setupFile": "pre_listad06.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-listad07",
+        "label_header": "リストD-7",
+        "label": "記録のない日は移動平均で穴埋めする",
+        "sourceFiles": [
+          "listad07.sql"
+        ],
+        "setupFile": "pre_listad07.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
   }
 ]
