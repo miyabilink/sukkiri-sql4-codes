@@ -1,0 +1,26 @@
+name: release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: create a ZIP file
+        run: ls &&
+          zip -r sukkiri-sql4-codes.zip sql setup LICENSE.txt README.md README.txt &&
+          unzip -t sukkiri-sql4-codes.zip
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          name: Release ${{ github.ref_name }}
+          files: sukkiri-sql4-codes.zip
+          draft: false
+          prerelease: false
