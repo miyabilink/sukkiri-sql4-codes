@@ -986,7 +986,7 @@
         "sourceFiles": [
           "list0712.sql"
         ],
-        "setupFile": "pre_list0711.sql",
+        "setupFile": "pre_list0712.sql",
         "isRuntimeError": false,
         "loadMessage": null
       },
@@ -1094,7 +1094,7 @@
         "loadMessage": null
       },
       {
-        "id": "ssql4-list0809",
+        "id": "ssql4-list0808",
         "label_header": "リスト8-8",
         "label": "副問い合わせの結果と結合するSQL文",
         "sourceFiles": [
