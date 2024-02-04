@@ -1,0 +1,1 @@
+CREATE TABLE 学生 (  学籍番号 CHAR(8), 名前 VARCHAR(30), 生年月日 DATE, 血液型 CHAR(2), 学部ID CHAR(1), 登録順 INTEGER  ); CREATE TABLE 学部 (  ID CHAR(1), 名前 VARCHAR(20), 備考 VARCHAR(100)  ); CREATE SEQUENCE ISTD; INSERT INTO 学部 ( ID,名前,備考 ) VALUES ( 'R','理学部','りがく' );INSERT INTO 学部 ( ID,名前,備考 ) VALUES ( 'K','工学部','こうがく' );
