@@ -1,0 +1,1 @@
+CREATE TABLE 試験結果 (  受験者ID VARCHAR(6), 午前 INTEGER, 午後1 INTEGER, 午後2 INTEGER, 論述 INTEGER, 平均点 INTEGER  ); INSERT INTO 試験結果 ( 受験者ID,午前,午後1,午後2,論述,平均点 ) VALUES ( 'SW1046',86,NULL,68,91,80 );INSERT INTO 試験結果 ( 受験者ID,午前,午後1,午後2,論述,平均点 ) VALUES ( 'SW1350',65,53,70,NULL,68 );INSERT INTO 試験結果 ( 受験者ID,午前,午後1,午後2,論述,平均点 ) VALUES ( 'SW1877',NULL,59,56,36,56 );

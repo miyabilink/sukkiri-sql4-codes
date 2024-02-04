@@ -79,16 +79,6 @@
         "setupFile": "pre_list0107.sql",
         "isRuntimeError": false,
         "loadMessage": null
-      },
-      {
-        "id": "ssql4-quizans0103",
-        "label": "問題1-3の解答",
-        "sourceFiles": [
-          "quizans0103.sql"
-        ],
-        "setupFile": "pre_quizans0103.sql",
-        "isRuntimeError": false,
-        "loadMessage": null
       }
     ]
   },
@@ -1678,6 +1668,232 @@
           "listad07.sql"
         ],
         "setupFile": "pre_listad07.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chapad",
+    "label": "付録E 練習問題の解答",
+    "children": [
+      {
+        "id": "ssql4-quizans0103",
+        "label": "問題1-3の解答",
+        "sourceFiles": [
+          "quizans0103.sql"
+        ],
+        "setupFile": "pre_quizans0103.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0203",
+        "label": "問題2-3の解答",
+        "sourceFiles": [
+          "quizans0203.sql"
+        ],
+        "setupFile": "pre_quizans0203.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0204",
+        "label": "問題2-4の解答",
+        "sourceFiles": [
+          "quizans0204.sql"
+        ],
+        "setupFile": "pre_quizans0204.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0205",
+        "label": "問題2-5の解答",
+        "sourceFiles": [
+          "quizans0205.sql"
+        ],
+        "setupFile": "pre_quizans0205.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0206",
+        "label": "問題2-6の解答",
+        "sourceFiles": [
+          "quizans0206.sql"
+        ],
+        "setupFile": "pre_quizans0206.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0301",
+        "label": "問題3-1の解答",
+        "sourceFiles": [
+          "quizans0301.sql"
+        ],
+        "setupFile": "pre_quizans0301.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0302",
+        "label": "問題3-2の解答",
+        "sourceFiles": [
+          "quizans0302.sql"
+        ],
+        "setupFile": "pre_quizans0302.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0303",
+        "label": "問題3-3の解答",
+        "sourceFiles": [
+          "quizans0303.sql"
+        ],
+        "setupFile": "pre_quizans0303.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0401",
+        "label": "問題4-1の解答",
+        "sourceFiles": [
+          "quizans0401.sql"
+        ],
+        "setupFile": "pre_quizans0401.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0402",
+        "label": "問題4-2の解答",
+        "sourceFiles": [
+          "quizans0402.sql"
+        ],
+        "setupFile": "pre_quizans0402.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0501",
+        "label": "問題5-1の解答",
+        "sourceFiles": [
+          "quizans0501.sql"
+        ],
+        "setupFile": "pre_quizans0501.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0502",
+        "label": "問題5-2の解答",
+        "sourceFiles": [
+          "quizans0502.sql"
+        ],
+        "setupFile": "pre_quizans0502.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0503",
+        "label": "問題5-3の解答",
+        "sourceFiles": [
+          "quizans0503.sql"
+        ],
+        "setupFile": "pre_quizans0503.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0601",
+        "label": "問題6-1の解答",
+        "sourceFiles": [
+          "quizans0601.sql"
+        ],
+        "setupFile": "pre_quizans0601.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0602",
+        "label": "問題6-2の解答",
+        "sourceFiles": [
+          "quizans0602.sql"
+        ],
+        "setupFile": "pre_quizans0602.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0703",
+        "label": "問題7-3の解答",
+        "sourceFiles": [
+          "quizans0703.sql"
+        ],
+        "setupFile": "pre_quizans0703.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0802",
+        "label": "問題8-2の解答",
+        "sourceFiles": [
+          "quizans0802.sql"
+        ],
+        "setupFile": "pre_quizans0802.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans1002",
+        "label": "問題10-2の解答",
+        "sourceFiles": [
+          "quizans1002.sql"
+        ],
+        "setupFile": "pre_quizans1002.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans1003",
+        "label": "問題10-3の解答",
+        "sourceFiles": [
+          "quizans1003.sql"
+        ],
+        "setupFile": "pre_quizans1003.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans1005",
+        "label": "問題10-5の解答",
+        "sourceFiles": [
+          "quizans1005.sql"
+        ],
+        "setupFile": "pre_quizans1005.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans1102",
+        "label": "問題11-2の解答",
+        "sourceFiles": [
+          "quizans1102.sql"
+        ],
+        "setupFile": "pre_quizans1102.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql4-quiz1202",
+        "label": "問題12-2の解答",
+        "sourceFiles": [
+          "quizans1202.sql"
+        ],
+        "setupFile": "pre_quizans1202.sql",
         "isRuntimeError": false,
         "loadMessage": null
       }
