@@ -79,6 +79,16 @@
         "setupFile": "pre_list0107.sql",
         "isRuntimeError": false,
         "loadMessage": null
+      },
+      {
+        "id": "ssql4-quizans0103",
+        "label": "問題1-3の解答",
+        "sourceFiles": [
+          "quizans0103.sql"
+        ],
+        "setupFile": "pre_quizans0103.sql",
+        "isRuntimeError": false,
+        "loadMessage": null
       }
     ]
   },
