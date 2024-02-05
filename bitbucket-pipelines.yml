@@ -21,13 +21,11 @@ definitions:
         name: 'English Codes(sukkiri-sql4-english)'
         image: atlassian/default-image:2
         script:
+          - cat setup/chap01/pre_list0101.sql 
           - ls ~/.ssh && cat ~/.ssh/known_hosts
           - cat my_known_hosts >> ~/.ssh/known_hosts
-          - (umask 077 ; echo $ENGLISH_SSH_KEYS | base64 --decode > ~/.ssh/id_ed25519) && ls -a && cd ..
-          - git clone -c core.sshCommand="ssh -i ~/.ssh/id_ed25519" git@github.com:miyabilink/sukkiri-sql4-english.git
-          - git clone git@github.com:miyabilink/sukkiri-sql4-codes.git
-          - cp -rf sukkiri-sql4-codes ssql4 && cd ssql4 && pwd
-          - git remote add sync git@github.com:miyabilink/sukkiri-sql4-english.git
+          - (umask 077 ; echo $ENGLISH_SSH_KEYS | base64 --decode > ~/.ssh/id_ed25519) && ls -a 
+          - git remote add english git@github.com:miyabilink/sukkiri-sql4-english.git
           - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
           - git fetch origin
           - git checkout main
@@ -39,8 +37,8 @@ definitions:
           - git rm -f bitbucket-pipelines.yml my_known_hosts
           - git commit -m "convert from Japanese to English"
           - git filter-branch -f --env-filter "GIT_AUTHOR_NAME='Izumi TACHIBANA'; GIT_AUTHOR_EMAIL='tachibana@miyabilink.jp'; GIT_COMMITTER_NAME='Izumi TACHIBANA'; GIT_COMMITTER_EMAIL='tachibana@miyabilink.jp';" --tag-name-filter cat -- --all
-          - git push -c "core.sshCommand=ssh -i ~/.ssh/id_ed25519 -F /dev/null" sync --tags
-          - git push -c "core.sshCommand=ssh -i ~/.ssh/id_ed25519 -F /dev/null" -f sync main
+          - git push -c "core.sshCommand=ssh -i ~/.ssh/id_ed25519" english --tags
+          - git push -c "core.sshCommand=ssh -i ~/.ssh/id_ed25519" -f english main
 pipelines:
     tags:
       v*.*.*:
