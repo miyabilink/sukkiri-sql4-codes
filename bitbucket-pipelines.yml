@@ -24,7 +24,7 @@ definitions:
           - ls ~/.ssh && cat ~/.ssh/known_hosts
           - cat my_known_hosts >> ~/.ssh/known_hosts
           - (umask  077 ; echo $ENGLISH_SSH_KEYS | base64 --decode > ~/.ssh/id_ed25519) && ls ~/.ssh
-          - ssh -T git@github.com
+          - ssh -i ~/.ssh/id_ed25519 git@github.com
           - git clone git@github.com:miyabilink/sukkiri-sql4-codes.git
           - cp -rf sukkiri-sql4-codes ssql4 && cd ssql4 && pwd
           - git remote add sync git@github.com:miyabilink/sukkiri-sql4-english.git
