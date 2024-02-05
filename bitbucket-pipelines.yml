@@ -38,6 +38,6 @@ definitions:
           - git push -f sync main
 pipelines:
     tags:
-      v*:
-        - step: &japanese
-        - step: &english
+      v*.*.*:
+        - step: *japanese
+        - step: *english
