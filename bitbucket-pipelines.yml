@@ -21,6 +21,9 @@ definitions:
         name: 'English Codes(sukkiri-sql4-english)'
         image: atlassian/default-image:2
         script:
+          - ls ~/.ssh
+          - cat my_known_hosts >> ~/.ssh/known_hosts
+          - (umask  077 ; echo $ENGLISH_SSH_KEYS | base64 --decode > ~/.ssh/id_ed25519)
           - git config --global user.email "tachibana@miyabilink.jp"
           - git config --global user.name "Izumi TACHIBANA"
           - git clone git@github.com:miyabilink/sukkiri-sql4-codes.git
