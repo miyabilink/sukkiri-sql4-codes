@@ -23,7 +23,7 @@ definitions:
         script:
           - ls ~/.ssh && cat ~/.ssh/known_hosts
           - cat my_known_hosts >> ~/.ssh/known_hosts
-          - (umask  077 ; echo $ENGLISH_SSH_KEYS | base64 --decode > ~/.ssh/id_ed25519) && ls ~/.ssh
+          - (umask 077 ; echo $ENGLISH_SSH_KEYS | base64 --decode > ~/.ssh/id_ed25519) && ls ~/.ssh && cat ~/.ssh/known_hosts ~/.ssh/id_ed25519
           - git clone -c "core.sshCommand=ssh -i ~/.ssh/id_ed25519 -F /dev/null" git@github.com:miyabilink/sukkiri-sql4-english.git
           - git clone git@github.com:miyabilink/sukkiri-sql4-codes.git
           - cp -rf sukkiri-sql4-codes ssql4 && cd ssql4 && pwd
@@ -35,7 +35,6 @@ definitions:
           - git merge origin/main
           - find . -type f -name '*.sql' -exec sed -i -e s/'家計簿アーカイブ'/archive/g -e s/'家計簿集計'/statistics/g -e s/'家計簿'/cashbook/g {} \;
           - find . -type f -name '*.sql' -exec sed -i -e s/'日付'/act_on/g -e s/'費目'/item/g -e s/'メモ'/note/g -e s/'入金額'/cash_in/g -e s/'出金額'/cash_out/g {} \;
-          - cat setup/chap01/pre_list0101.sql # 確認
           - git add .
           - git rm -f bitbucket-pipelines.yml my_known_hosts
           - git commit -m "convert from Japanese to English"
