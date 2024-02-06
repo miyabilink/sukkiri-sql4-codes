@@ -52,8 +52,8 @@ definitions:
           - git checkout main
           - git pull
           - git merge origin/main
-          - find . -type f -name '*.sql' -exec sed -i -e s/'家計簿アーカイブ'/KA/g -e s/'家計簿集計'/KS/g -e s/'家計簿'/K/g {} \;
-          - find . -type f -name '*.sql' -exec sed -i -e s/'日付'/D/g -e s/'費目'/H/g -e s/'メモ'/M/g -e s/'入金額'/N/g -e s/'出金額'/S/g {} \;
+          - find . -type f -name '*.sql' -exec sed -i -e s/'家計簿アーカイブ'/KA/g -e s/'家計簿集計'/KS/g -e s/'家計簿'/KK/g {} \;
+          - find . -type f -name '*.sql' -exec sed -i -e s/'日付'/HD/g -e s/'費目'/HM/g -e s/'メモ'/MM/g -e s/'入金額'/NK/g -e s/'出金額'/SK/g -e s/'名前'/NM/g -e s/'備考'/BK/g {} \;
           - cat setup/chap01/pre_list0101.sql 
           - git add .
           - git rm -f bitbucket-pipelines.yml my_known_hosts
