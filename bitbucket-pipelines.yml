@@ -53,7 +53,7 @@ definitions:
           - git pull
           - git merge origin/main
           - find . -type f -name '*.sql' -exec sed -i -e s/'家計簿アーカイブ'/KA/g -e s/'家計簿集計'/KS/g -e s/'家計簿'/KK/g -e s/'経費区分'/KH/g {} \;
-          - find . -type f -name '*.sql' -exec sed -i -e s/'日付'/HD/g -e s/'費目'/HM/g -e s/'メモ'/MM/g -e s/'入金額'/NK/g -e s/'出金額'/SK/g -e s/'名前'/NM/g -e s/'備考'/BK/g -e s/'名称'/MS/g -e s/'合計'/GK/g -e s/'平均'/HK/g -e s/'最大'/SD/g -e s/'最小'/SH/g -e s/'回数'/KS/g {} \;
+          - find . -type f -name '*.sql' -exec sed -i -e s/'日付'/HD/g -e s/'費目'/HM/g -e s/'メモ'/MM/g -e s/'入金額'/NK/g -e s/'出金額'/SK/g -e s/'名前'/NM/g -e s/'備考'/BK/g -e s/'名称'/MS/g -e s/'合計'/GK/g -e s/'平均'/HK/g -e s/'最大'/SD/g -e s/'最小'/SS/g -e s/'回数'/KS/g {} \;
           - cat setup/chap01/pre_list0101.sql 
           - git add .
           - git rm -f bitbucket-pipelines.yml my_known_hosts
