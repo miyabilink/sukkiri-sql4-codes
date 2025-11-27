@@ -22,8 +22,9 @@ definitions:
         image: atlassian/default-image:2
         script:
           - cat setup/chap01/pre_list0101.sql 
-          - ls ~/.ssh && cat ~/.ssh/known_hosts
           - cat my_known_hosts_eng >> ~/.ssh/known_hosts
+          - chmod 644 ~/.ssh/known_hosts
+          - ls -l ~/.ssh && cat ~/.ssh/known_hosts
           - echo $ENGLISH_SSH_KEYS | base64 --decode
           - (umask 077 ; echo $ENGLISH_SSH_KEYS | base64 --decode > ~/.ssh/id_ed25519) && ls -a ~/.ssh
           - git remote add english git@github.com:miyabilink/sukkiri-sql4-english.git
