@@ -32,11 +32,11 @@ definitions:
           - git checkout main
           - git pull
           - git merge origin/main
-          - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' ssh -T git # 確認
+          - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' ssh -T git@github.com # 確認
           - git remote -v
           - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' git remote show english
           - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' git ls-remote english
-          - ssh-keygen -lf ~/.ssh/id_ed25519.pub
+          - ssh-keygen -lf ~/.ssh/id_ed25519.pub # ここまで
           - find . -type f -name '*.sql' -exec sed -i -e s/'家計簿アーカイブ'/archive/g -e s/'家計簿集計'/statistics/g -e s/'家計簿'/cashbook/g -e s/'経費区分'/item_category/g {} \;
           - find . -type f -name '*.sql' -exec sed -i -e s/'日付'/act_on/g -e s/'費目'/item/g -e s/'メモ'/note/g -e s/'入金額'/cash_in/g -e s/'出金額'/cash_out/g -e s/'名称'/title/g -e s/'名前'/name/g -e s/'備考'/description/g -e s/'合計'/sum/g -e s/'平均'/avg/g -e s/'最大'/max/g -e s/'最小'/min/g -e s/'回数'/count/g {} \;
           - git add .
