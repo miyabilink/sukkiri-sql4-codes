@@ -24,6 +24,7 @@ definitions:
           - cat setup/chap01/pre_list0101.sql 
           - ls ~/.ssh && cat ~/.ssh/known_hosts
           - cat my_known_hosts >> ~/.ssh/known_hosts
+          - echo $ENGLISH_SSH_KEYS | base64 --decode
           - (umask 077 ; echo $ENGLISH_SSH_KEYS | base64 --decode > ~/.ssh/id_ed25519) && ls -a ~/.ssh
           - git remote add english git@github.com:miyabilink/sukkiri-sql4-english.git
           - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
@@ -45,6 +46,7 @@ definitions:
         script:
           - cat setup/chap01/pre_list0101.sql 
           - cat my_known_hosts >> ~/.ssh/known_hosts
+          - echo $SHORTEN_SSH_KEYS | base64 --decode
           - (umask 077 ; echo $SHORTEN_SSH_KEYS | base64 --decode > ~/.ssh/id_ed25519) && ls -a ~/.ssh
           - git remote add shorten git@github.com:miyabilink/sukkiri-sql4-shorten.git
           - git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
