@@ -24,7 +24,7 @@ definitions:
           - cat setup/chap01/pre_list0101.sql 
           # - cat my_known_hosts_eng > ~/.ssh/known_hosts
           # - chmod 644 ~/.ssh/known_hosts
-          - ssh-keyscan github.com >> ~/.ssh/known_hosts
+          - ssh-keyscan github.com >> ~/.ssh/known_hosts # 追記
           - chmod 644 ~/.ssh/known_hosts
           # - ls -l ~/.ssh && cat ~/.ssh/known_hosts
           # - echo $ENGLISH_SSH_KEYS
