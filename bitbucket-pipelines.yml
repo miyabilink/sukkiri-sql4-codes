@@ -25,6 +25,7 @@ definitions:
           - cat my_known_hosts_eng > ~/.ssh/known_hosts
           - chmod 644 ~/.ssh/known_hosts
           - ls -l ~/.ssh && cat ~/.ssh/known_hosts
+          - echo $ENGLISH_SSH_KEYS
           - echo $ENGLISH_SSH_KEYS | base64 --decode
           - (umask 077 ; echo $ENGLISH_SSH_KEYS | base64 --decode > ~/.ssh/id_ed25519) && ls -a ~/.ssh
           - git remote add english git@github.com:miyabilink/sukkiri-sql4-english.git
@@ -34,8 +35,8 @@ definitions:
           - git checkout main
           - git pull
           - git merge origin/main
-          - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' git ls-remote english # 確認
           - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' ssh -T git@github.com # 確認
+          - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' git ls-remote english # 確認
           - git remote -v
           - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' git remote show english
           - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' git ls-remote english
