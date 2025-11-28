@@ -36,7 +36,7 @@ definitions:
           - git pull
           - git merge origin/main
           - git ls-remote english # 要確認
-          - ssh -T git@github.com # 確認
+          - ssh -T git@github.com # 要確認
           - git remote -v
           - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' git remote show english
           - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' git ls-remote english
