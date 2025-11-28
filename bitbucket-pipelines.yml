@@ -35,7 +35,7 @@ definitions:
           - git checkout main
           - git pull
           - git merge origin/main
-          - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' ssh -T git@github.com # 確認
+          - ssh -T git@github.com # 確認
           - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' git ls-remote english # 確認
           - git remote -v
           - GIT_SSH_COMMAND='ssh -i ~/.ssh/id_ed25519' git remote show english
